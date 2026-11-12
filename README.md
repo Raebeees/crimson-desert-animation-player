@@ -2,7 +2,7 @@
 
 A Crimson Desert animation system in development by Raebeees. It provides an in-game library for selecting custom animations, including dances with music. This repository documents the project and its design; no download is currently provided.
 
-## How it works and why
+## Description
 
 Open **F4 → Animations** to select an animation. The client manages the menu, playback and audio; a shared runtime host checks actor identity and readiness and connects the selection to a prepared game animation route. Movement cancels playback.
 
